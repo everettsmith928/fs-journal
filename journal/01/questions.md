@@ -9,10 +9,10 @@
     > | ANSWER HERE |
 
 04. What is ***specificity*** and how might you use it to your benefit?
-    > | ANSWER HERE |
+    > | Specificity is a value structure to css properties that allow specific elements or properties to override other ones in your code. |
 
 05. What problems do you think you could run into if you over-utilized the `!important` feature?
-    > | ANSWER HERE |
+    > | You might have !important tags that keep your from modifying other elements later on in your design without removing the important. |
 
 06. What are the three components that makeup a `CSS` rule? <br> Example:
 
@@ -22,19 +22,19 @@
         }
     ```
 
-    > | ANSWER HERE |
+    > | Selector Property Value |
 
 07. How do you think good design influences people when visiting a website, and what sorts of things could you convey through design alone?
-    > | ANSWER HERE |
+    > | Good design helps people to understand your products, stay on the website, buy more, trust a company. And a long list of positive aspects for people using your product or learning more about your business. |
 
 08. What is the purpose of ***wireframing***?
-    > | ANSWER HERE |
+    > | Establishing the boundaries of content on the website. Allowing all parties with a vested interest to determine what is working and what is not working to get different aspects of the website approved before any development happens. |
 
 09. Do you think wireframes are worth the time, energy, and effort that they require? Why or Why not?
-    > | ANSWER HERE |
+    > | Yes definitely, the large aspects of the website are much easier to figure out earlier in the development than trying to come back later and fix. |
 
 10. Define the display `:flex property:`
-    > | ANSWER HERE |
+    > | All elements will now display horizontally on the webpage |
 
 11. What `CSS` properties affect the size of a box model?
     > | ANSWER HERE |
