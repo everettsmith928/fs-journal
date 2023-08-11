@@ -36,3 +36,5 @@ background-image: url(link to image online)
 
 order-first: to order content apply to column
 order-1-5: create order of elements
+
+style.debug - bootstrap outlines;

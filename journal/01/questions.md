@@ -6,13 +6,13 @@
     > Create a folder or directory
 
 03. What is a ***pseudo-class*** and what are some of the most common ones you think you will use?
-    > | ANSWER HERE |
+    > | They allow you to change the properties of your css with external events, :hover or :active on buttons or content seem like some you would use all the time in a reactive website! |
 
 04. What is ***specificity*** and how might you use it to your benefit?
-    > | Specificity is a value structure to css properties that allow specific elements or properties to override other ones in your code. |
+    > | Specificity is a value structure in css that allow specific elements or properties to decide what is most important when they are targeted multiple places in your code. This means you can create unique variations from content that you have already created, allowing a more robust and clean code. |
 
 05. What problems do you think you could run into if you over-utilized the `!important` feature?
-    > | You might have !important tags that keep your from modifying other elements later on in your design without removing the important. |
+    > | By going straight to a very high specificity you might have !important tags that keep your from modifying other elements later on in your design without removing the important. Which can cause a signifigant amount of backtracking to clean up the code. |
 
 06. What are the three components that makeup a `CSS` rule? <br> Example:
 
@@ -25,7 +25,7 @@
     > | Selector Property Value |
 
 07. How do you think good design influences people when visiting a website, and what sorts of things could you convey through design alone?
-    > | Good design helps people to understand your products, stay on the website, buy more, trust a company. And a long list of positive aspects for people using your product or learning more about your business. |
+    > | Good design helps people to understand your products, stay on the website, buy more, trust a company. And a long list of positive aspects for people using your product or learning more about your business. You can convey specific emotions/schemas with different colors. Like green = financial or health |
 
 08. What is the purpose of ***wireframing***?
     > | Establishing the boundaries of content on the website. Allowing all parties with a vested interest to determine what is working and what is not working to get different aspects of the website approved before any development happens. |
@@ -37,4 +37,4 @@
     > | All elements will now display horizontally on the webpage |
 
 11. What `CSS` properties affect the size of a box model?
-    > | ANSWER HERE |
+    > | The content width, height, margin, padding, border all affect the size of the box model. |
