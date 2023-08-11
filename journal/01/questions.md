@@ -12,7 +12,7 @@
     > | Specificity is a value structure in css that allow specific elements or properties to decide what is most important when they are targeted multiple places in your code. This means you can create unique variations from content that you have already created, allowing a more robust and clean code. |
 
 05. What problems do you think you could run into if you over-utilized the `!important` feature?
-    > | By going straight to a very high specificity you might have !important tags that keep your from modifying other elements later on in your design without removing the important. Which can cause a signifigant amount of backtracking to clean up the code. |
+    > | By going straight to a very high specificity you might have !important tags that keep your from modifying other elements later on in your design without removing the important. Which can cause a significant amount of backtracking to clean up the code. |
 
 06. What are the three components that makeup a `CSS` rule? <br> Example:
 
@@ -28,13 +28,13 @@
     > | Good design helps people to understand your products, stay on the website, buy more, trust a company. And a long list of positive aspects for people using your product or learning more about your business. You can convey specific emotions/schemas with different colors. Like green = financial or health |
 
 08. What is the purpose of ***wireframing***?
-    > | Establishing the boundaries of content on the website. Allowing all parties with a vested interest to determine what is working and what is not working to get different aspects of the website approved before any development happens. |
+    > | They are a communication device between developers and everyone else. Establishing the boundaries of content on the website. Allowing all parties with a vested interest and users to determine what is working and what is not working to get different aspects of the website approved before any development happens. |
 
 09. Do you think wireframes are worth the time, energy, and effort that they require? Why or Why not?
     > | Yes definitely, the large aspects of the website are much easier to figure out earlier in the development than trying to come back later and fix. |
 
 10. Define the display `:flex property:`
-    > | All elements will now display horizontally on the webpage |
+    > | All elements will now display horizontally on the webpage or flex-property sets the flex length on flexible items. |
 
 11. What `CSS` properties affect the size of a box model?
     > | The content width, height, margin, padding, border all affect the size of the box model. |
