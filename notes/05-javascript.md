@@ -9,7 +9,7 @@ numbers are floats in js
 
 truthy falsy = numbers can behave as a true or false.
 you can use 0 in place of false;
-you can use any numver in place of true;
+you can use any number in place of true;
 
 an empty string '' will return as false
 anything in ' ' string will return as true
