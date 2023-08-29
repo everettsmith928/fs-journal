@@ -31,3 +31,47 @@ in your async getSomething() function:
   
   const reponse = axios.get(URL)
   console.log(response.naming)
+
+  auth0 : Domain : Audience: ClientID
+    Environment files store our credentials
+    generates a token for the user when they login : Bearer Token sent through the get request to return the userinfo object
+
+    Payload is what we are sending to the API as a POST request
+
+    Add locally with the response.data from the api
+
+    Static: A method that exists on the class itself and is exported. must be invoked
+    Getters: Exist on the instances of a class
+
+    Account is stored in the appstate
+
+
+  Don't import Axios 
+
+  sandbox/api/category
+  const api = axios.create({
+    baseURL: API URL
+      const response = await _sandboxApi.get('directory/subject')
+  })
+
+creator is an object stored on an object. Basically the user
+
+Adapter Pattern = restructuring the data when you onstruct it through your class.
+
+Flattening an object is removing the nested objects
+
+Create: Post Method. Any time we do a post request we will supply a body. That's what gets sent to our API
+
+enum : means it needs to have one of many selected values
+
+Save a good form
+
+Put Request: go find an object in the API and update the values. Add the ID to the URL for the PUT method
+Resend the object through your class and then replace it in the APPSTATE array
+
+
+
+
+
+
+
