@@ -9,11 +9,11 @@
 
 03. What does *REST* stand for, and in simple terms what does it mean??
 
-  > | ANSWER HERE |
+  > | Representation State Transfer |
 
 04. What is a callback / higher order function?
 
-  > | ANSWER HERE |
+  > | A callback is a function that will run only at the end of a specific part of code.  |
 
 05. What is a `promise`? How do you capture an error from a `promise`?
 
@@ -21,11 +21,11 @@
 
 06. Name three processes used to make requests over `HTTP`?
 
-  > | Get, Set |
+  > | Get, Put, Delete, Post |
 
 07. What does the `API` acronym stand for?
 
-  > | ANSWER HERE |
+  > | Application Programming Interfaxe |
 
 08. What must you do in order to `await` a promise inside of a function?
 
@@ -37,7 +37,7 @@
 
 10. What is `HTTP` response code for a successful request?
 
-  > |  |
+  > | 200 |
 
 11. What is a 400 error?
 
