@@ -13,7 +13,7 @@ Node Server Auth0 - only express server
 
 Server:
   Where the controller and service go. MVC setup
-  Controller: Tales in the actions from the User. Taking in our network requests(THE FIRST DOOR IN THE HALLWAY)
+  Controller: Takes in the actions from the User. Taking in our network requests(THE FIRST DOOR IN THE HALLWAY)
     Router - routing requests through express. all of the hallways.
     service is still responsible for altering data. There is no appstate. It is now the Database. 
     Middleman between the client and the database.
@@ -75,5 +75,37 @@ Schema needs to be registered with the DATABASE . DbContext is where we will add
 
 exporting a const of a schema in the model
 
+setting up the query in the get is a req.query - creates an object with the query key:value pair
+send it to the service and then search the database with the query
 
+Here's how you import an id from a different collection - {type: Schema.Types.ObjectId ref: `collection`}
+Virtual Key - Syntax  in Value.js - append after the schema
 
+then ExampleSchema.virtual('other category', {
+  localField: 'exhibitId', : property that you are using to grab from foreign field
+  ref:'Exhibit', : Collection that you are grabbing from
+  foreignField: '_id', : the property that you are tying to grab off the other object
+  justOne: true
+})
+
+To add the virtual to your object in your get request: await (databasecall)examples.populate('other category', 'key emoji')
+  attaches to your object the reference object or properties on that object.
+  
+Restful API conventions
+Client should not have to format the query: we set that up on the server
+.get('/:exhibitId/animals') - order of Dependency of Collections
+dbContext.Examples.find({key: value}) or ({exhibitId}) if the key and value are the same JS uses it for both
+
+Pipe operators do not work with truthy/falsy statements. You need to use a ternary operator
+
+Many to Many has a middleman Object that keeps track of the relationships between 2 objects that don't know each other.
+
+So we dont trust ownership from the client
+We have to use the bearer token to check if the payload is actually coming from the User
+
+.use(req,res,next) => you have to go through the use to get to the post
+.use(Auth0Provider.getAuthorizedUserInfo) - needs to be at the top of where you need to be logged in to do the actions: appends the user object to your req
+.post...
+.get....
+
+in network tab of dev tools: token - access_token: copy value and add it to the Authorization tab in Postman. This is how we attach the bearer token to our postman requests and gets attached, then validated through the use.
