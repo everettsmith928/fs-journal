@@ -109,3 +109,4 @@ We have to use the bearer token to check if the payload is actually coming from 
 .get....
 
 in network tab of dev tools: token - access_token: copy value and add it to the Authorization tab in Postman. This is how we attach the bearer token to our postman requests and gets attached, then validated through the use.
+
