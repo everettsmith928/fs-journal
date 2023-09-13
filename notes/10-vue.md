@@ -77,3 +77,44 @@ put modal into the app.vue to bring it in
 proxy objects get unwrapped in the template. so we don't need props. or .value in the template
 
 data.genres?.map => Use the elvis operator to see if an object has that key to run a method on it.
+
+Wednesday, September 13th
+
+Vue Router: 
+
+return component: [ component ]
+
+Pages: get registered with a router file - regular components do not
+router-link :to="{name: 'Name on the Route'}" Name is on the route, not the name of the page component
+
+const router = useRouter()
+return >>>>
+router.push({ name: 'Name' }) ====> this is use when you want to send the user somewhere automatically
+
+gap only works if your content is nested in the column!
+PAGES NEVER TAKE IN PROPS!!! =================>>>>>
+
+FIRST
+first set up our pages, then connect in the router, build your class for the first GET.
+
+SECOND
+Then we make our service file, build onmounted on our page and call the service, put variables in the appstate
+
+THIRD
+create our computed on the PAGE connected to the APPSTATE, Build our template on the Page, then v-for on the page.
+
+FOURTH
+Create a card component for the data, send it to the forLoop by building props, Then use the prop on the component tag. DATA bind in the v-for to show all cars.
+
+FIFTH
+Do the Design for your template on your component with some custom CSS, When you click on the card use the router to send to a details page. entire component is a router-link.
+
+SIXTH
+Setup a DETAILS page, connect in the router. /cars/:carId, Then add params: { carId: car.id} to send to the router so it goes to that URL, Each new page should handle getting new DATA so onmounted get object by ID, then we grab the ID from the URL with const route = useRoute(), route.params.bananaId, write get function for specific car. remove it from the appstate while awaiting the API call..
+
+SEVENTH
+create the template for the active car now to display a singular object's details. add a v-if so it only tries to load when there is an active in the appstate
+
+EIGHTH
+Create a form in the page. Use 2 way data binding on the form. write create form, setup our form and v-model, push it back into the appstate, then to send them to the page we do a router push and send the full new object back to the top function. use params: {exampleID: object.id} in the push, then add a delete button, and router push the user back to the home page.
+

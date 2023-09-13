@@ -2,5 +2,5 @@
 
 * **[Repo](https://github.com/everettsmith928/vue-playground)**
 * **[Repo](https://github.com/everettsmith928/giftedVue)**
-* **[Repo](https://github.com/everettsmith928/<ASSIGNMENT_REPO>)**
+* **[Repo](https://github.com/everettsmith928/lateSummer23-gregsListVue)**
 * **[Repo](https://github.com/everettsmith928/<ASSIGNMENT_REPO>)**
