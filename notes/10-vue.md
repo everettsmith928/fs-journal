@@ -118,3 +118,32 @@ create the template for the active car now to display a singular object's detail
 EIGHTH
 Create a form in the page. Use 2 way data binding on the form. write create form, setup our form and v-model, push it back into the appstate, then to send them to the page we do a router push and send the full new object back to the top function. use params: {exampleID: object.id} in the push, then add a delete button, and router push the user back to the home page.
 
+
+THURSDAY September 14th
+
+You can import an entire component
+When you are applying to a STYLE you need to string interpolate in the computed
+  coverImg: computed(() => `url(${props.project.coverImg})`)
+  then in STYLE use v-bind(coverImg)
+
+Slots: pass template into another template
+  <slot name="examples">
+    will display nested component
+  </slot>
+
+Your components can open and close like an element
+  <Example>
+    <template #body> <==== target the name on your nested component
+    nested Component
+    </template>
+  </Example>
+
+You can reuse components with nested components
+
+We pass down props from the parent element to the children
+
+put in your ref data
+watchEffect(()=> {
+
+})
+
