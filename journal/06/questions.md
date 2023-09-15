@@ -5,7 +5,7 @@
 
 02. What is the difference between a vue `component` and `page`?
 
-  > | A Page holds components inside of it. |
+  > | A Page holds components inside of it. The primary difference is an abstraction layer |
 
 03. What is ***Component-Based Architecture***?
 
