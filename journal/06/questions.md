@@ -25,7 +25,7 @@
 
 07. What is the difference between the `AppState` and the state object within a component?
 
-  > | The Appstate is where we store all of our local data, and the state object contains all of your application level state.|
+  > | The Appstate is where we store all of our local data, and the state object contains all of your application level data that needs to be shared throughout|
 
 08. What is the responsibility of `Services` in our Vue projects?
 
