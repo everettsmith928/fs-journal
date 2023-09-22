@@ -147,3 +147,68 @@ watchEffect(()=> {
 
 })
 
+Monday September 18th
+BACK END OF THE CHECKPOINT REFERENCE
+Build using the postman tests
+
+express-vue : WORKSPACE PROJECT
+Get everything connected with .env
+DO NOT TOUCH THE TESTS
+
+1. Post requests first for tests
+ALBUM PICTURES COLLABORATORS
+
+if all enums are lowercase in your modelSchema you can [','','',',',',] lowercase:true
+no matter what gets sent in it gets turned into lowercase
+
+set BEARER TOKEN UP AS THE BEARER TOKEN WITH A VARIABLE ON THE TOP FOLDER
+do based on the postman tests
+
+You can call other services from other services
+Do the eseential server side stuff then start on the front ENd
+
+We can add logic to our computed to return different things with our Appstate array. But then need to return something
+
+.sort('-createdAt') before the populate and it sorts by createdAt(newest)
+
+Tuesday September 19th
+FRONT END OF THE CHECKPOINT
+
+We have to have opening and closing tags on our component to use the slot
+
+Heres how we can pass data down to a component using slots
+<ModalWrapper id="example">
+  <template #button>
+  Content that targets the slow with #id
+  <Example/>
+  </template>
+  <template #body>
+    Our Example
+  </template>
+<ModalWrapper/>
+
+Drop down for vue
+Make sure we use ids
+<select v-model="example.key" id="">
+  <option disabled selected value="">Please select a value</option> (then you have to put an empty string in your ref)
+  <option value="exact value in our server that's allowed">animals</option>
+</select>
+
+user.isAuthenticated for your v-if on the frontend
+Send one object with all the data appended to the service and server
+
+create count as a virtual
+in your schema.virtual()
+localfield: '_id'=====> the id of the thing checking for itself on other objects
+count: true returns a number for any match
+
+AuthService we can add on user login functions with our service
+Then add your try catch in the service that way its not in the auth Service
+
+When we bring back virtuals we still need possibly need to run them through the class unless we are writng a loop
+in our props we can do type: Class || Object, that way we dont get errors
+
+onMounted only runs when a page is intitially loaded so we cant push to the same component without using a watcheffect
+
+The service should match with the controller on the server
+
