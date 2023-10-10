@@ -105,15 +105,17 @@ class Cat{
   public readonly int Age; - (Can't change the value)
   private bool Feisty;
 
-    public Cat(int id, string name, string color, int age)
+    <!-- public Cat(int id, string name, string color, int age)
     {
       Id = id;
       Name = name;
       Color = color;
       Age = age;
       Feisty = feisty;
-    }
+    } -->
 }
+
+WE DONT USE THE CONSTRUCTOR FOR SQL
 
 https://localhost:7045
 CONTROLLER
@@ -172,3 +174,54 @@ The order is important here
   services.AddScoped<CatsService>();
 
 Function that doesn't return something has the void
+
+Tuesday October 10th SQL Gregslist
+
+Relational Databases - Keyed Columns and Rows to store data
+
+Table must be defined like a schema
+
+There is no string - there is TEXT, VARCHAR(1000), 
+
+You get back a number every time you run a sql statement. The affected rows
+
+SELECT * FROM hotdogs; grab all columns from the dogs
+SELECT name, 'hasKetchup' FROM hotdogs: grab columns from data
+WHERE = at the end of select add your condition: 'hasKetchup' = true;
+AND = include addition conditionals for your query
+LIKE = basically when it includes '%jalapeno%' (Wildcard)
+ORDER BY (column) = organize from highest to lowest
+ASCENDING
+DESCENDING
+LIMIT = add a max search amount
+OFFSET 1 = remove the first item
+UPDATE = 
+SET = the value you want to change it to 
+NOT NULL at end of lines in table creation - dont use with not null
+COMMENT = Just adds a title to your column
+
+"Appsettings.development"
+"CONNECTION_STRING": "server=MASTER;database=DATABASENAME;port=3306;user id=USERNAME;password=PASSWORD;"
+
+MYSQL tutorial .org - All the SQL documentation
+ 
+private readonly IDbConnection _db;
+  public 
+
+PASS THE SQL AS A STRING
+internal List<Car> GetAllThings()
+{
+  string sql = "SELECT * FROM cars;";
+  List<Car> cars = _db.Query<Car>(sql).toList();
+  return cars
+}
+
+How to sanitize: String interpolate with @carId;
+(sql, new {carId})
+
+Maps all properties of columns into our model and turns into an object
+Query turns into an enumerable so we convert it into a list
+
+@"" allows multiple lines
+
+make data types nullable with a ?
