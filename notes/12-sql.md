@@ -10,3 +10,13 @@ foreign key constraint(This field relies on another table)
     creatorId - in this table id : - in the other table
                           
 return edits in the service layer
+
+ANY SERVICE SHOULD BE THE ONLY THING THAT TALKS TO THE REPOSITORY
+
+VIEW MODELS
+RETURNING BACK DATA THAT HAS BEEN FORMATTED TO LOOK LIKE WHAT WE WANT TO SEE
+HAS THE ADDITIONAL PROPERTY TO POINT TO THE RELATIONSHIP
+public class AccountCollaboratorView : Account
+
+OCTOBER 19th SQL COUNT
+
