@@ -2,4 +2,4 @@
 
 * **[Repo](https://github.com/everettsmith928/choreList)**
 * **[Repo](https://github.com/everettsmith928/gregslistSQL)**
-* **[Repo](https://github.com/everettsmith928/<ASSIGNMENT_REPO>)**
+* **[Repo](https://github.com/everettsmith928/allSpice)**
