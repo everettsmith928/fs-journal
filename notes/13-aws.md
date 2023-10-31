@@ -33,3 +33,33 @@ change bind address -
 
 connection is our public IP address on the AWS host port-3306
 username - whatever we setup in the linux 'banana'
+
+
+DOCKER
+
+When your cloud machine is created it installs all the necessary dependencies
+
+NGINX Handles requests from clients to partition them out between your applications
+
+Dockerfile build that is a docker image = upload to docker hub then do a docker pull basically to install dependencies
+
+Learn lint and Test
+
+YAML
+
+HOW TO DEPLOY WITH DOCKER - AUTO COMMIT CHANGES YOUR DEPLOYED SITE
+
+Create new top level folder
+  .github
+Add new Folder inside
+  workflows
+    build.yml
+    deploy.yml
+
+Setting
+  Secrets and Variables
+    Repository Secret = add all env information for Docker in deploy file
+
+NGINX
+
+  STEP 3 instead of 2
